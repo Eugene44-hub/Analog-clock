@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clock {
+    background-color: rgb(75, 75, 238);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    transform: translate(0, 50%);
+}
+
+.num1 {
+    transform: translate(28%, 100%);
+}
+
+.num2 {
+    transform: translate(44%, 200%);
+}
+
+.num3 {
+    transform: translate(48%, 489%);
+}
+
+.num4 {}
+
+.num5 {
+    transform: translate(28%, 819%);
+}
+
+.num6 {
+    transform: translate(0, 850%);
+}
+
+.num7 {}
+
+.num8 {}
+
+.num9 {
+    transform: translate(-48%, -100%);
+}
+
+.num10 {}
+
+.num11 {
+    transform: translate(-28%, -885%);
+}
+
+.num12 {
+    transform: translate(0, -1130%);
+}

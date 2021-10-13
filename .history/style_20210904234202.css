@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(29, 28, 28);
+}
+
+.clock {
+    background-color: rgb(90, 87, 87);
+    height: 400px;
+    width: 400px;
+    border: 20px solid rgb(44, 44, 44);
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    transform: translate(0, 50%);
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 4px 4px 18px black, 1px 1px 18px rgb(53, 52, 52);
+    color: white;
+}
+
+.circle {
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.minute {
+    background-color: rgb(155, 151, 151);
+    position: absolute;
+    top: 10%;
+    left: 48.5%;
+    width: 10px;
+    height: 167px;
+    border: 50%;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+    box-shadow: 2px 2px 14px rgb(51, 50, 50);
+}
+
+.hour {
+    background-color: black;
+    position: absolute;
+    top: 19%;
+    left: 48.5%;
+    width: 10px;
+    height: 130px;
+    border: 50%;
+    transform: rotate(0deg);
+    background-color: rgb(155, 151, 151);
+    transform-origin: bottom;
+    box-shadow: 2px 2px 14px rgb(10, 10, 10);
+    /* animation: clock 60s linear infinite; */
+}
+
+.second {
+    position: absolute;
+    top: 7%;
+    left: 49%;
+    width: 6px;
+    height: 180px;
+    border: 50%;
+    transform: rotate(0deg);
+    background-color: rgb(156, 144, 144);
+    transform-origin: bottom;
+    animation: clock 60s linear infinite;
+    box-shadow: 2px 2px 14px rgb(10, 10, 10);
+}
+
+.small {
+    width: 23px;
+    height: 23px;
+    background-color: silver;
+    left: 198px;
+    top: 46%;
+}
+
+.date {
+    position: absolute;
+    left: 43%;
+    top: 19%;
+    font-size: 15px;
+    border: 2px solid grey;
+    z-index: -1;
+    color: rgb(66, 66, 64);
+    box-shadow: inset 1px 1px 18px grey;
+    background-color: white;
+}
+
+.another {
+    position: absolute;
+    top: -59%;
+    left: -5%;
+    opacity: 0.6;
+}
+
+
+/* 
+@keyframes clock {
+    from {
+        transform: rotate(0deg);
+        background-color: white;
+    }
+    to {
+        transform: rotate(360deg);
+        background-color: blueviolet;
+    }
+} */
+
+.num6 {
+    transform: translate(0, 850%);
+}
+
+.num9 {
+    transform: translate(-48%, -155%);
+}
+
+.num12 {
+    transform: translate(0, -1120%);
+}
+
+.num3 {
+    transform: translate(48%, 450%);
+}
+
+.num1 {
+    transform: translate(25%, 70%);
+}
+
+.num2 {
+    transform: translate(41%, 200%);
+}
+
+.num4 {
+    transform: translate(41%, 720%);
+}
+
+.num5 {
+    transform: translate(25%, 850%);
+}
+
+.num5 {
+    transform: translate(25%, 850%);
+}
+
+.num7 {
+    transform: translate(-25%, 650%);
+}
+
+.num8 {
+    transform: translate(-41%, 320%);
+}
+
+.num11 {
+    transform: translate(-25%, -930%)
+}
+
+.num10 {
+    transform: translate(-41%, -600%);
+}
+
+
+/* .num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6,
+.num7,
+.num8,
+.num9,
+.num10,
+.num11,
+.num12 {
+    padding: 15px;
+} */
+
+
+/* .num1 {
+    transform: translate(28%, 100%);
+}
+
+.num2 {
+    transform: translate(44%, 260%);
+}
+
+.num3 {
+    transform: translate(48%, 489%);
+}
+
+.num4 {
+    transform: translate(44%, 750%);
+}
+
+.num5 {
+    transform: translate(28%, 890%);
+}
+
+.num6 {
+    transform: translate(0, 890%);
+}
+
+.num7 {
+    transform: translate(24%, 694%);
+}
+
+.num8 {
+    transform: translate(-44%, 350%)
+}
+
+.num9 {
+    transform: translate(-48%, -100%);
+}
+
+.num10 {
+    transform: translate(-44%, -540%);
+}
+
+.num11 {
+    transform: translate(-28%, -900%);
+}
+
+.num12 {
+    transform: translate(0, -1130%);
+} */

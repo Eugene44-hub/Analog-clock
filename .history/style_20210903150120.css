@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+}
+
+.clock {
+    border: 1px solid black;
+    height: 400px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}

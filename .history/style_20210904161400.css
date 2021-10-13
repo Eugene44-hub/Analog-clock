@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clock {
+    background-color: rgb(75, 75, 238);
+    height: 400px;
+    width: 400px;
+    border: 20px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    transform: translate(0, 50%);
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.circle {
+    background-color: red;
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.minute {
+    background-color: black;
+    position: absolute;
+    top: 12%;
+    left: 47.4%;
+    width: 20px;
+    height: 167px;
+    border: 50%;
+    transform: rotate(0deg);
+}
+
+.second {
+    background-color: black;
+    position: absolute;
+    top: 20.5%;
+    left: 47.4%;
+    width: 20px;
+    height: 130px;
+    border: 50%;
+    transform: rotate(0deg);
+    animation-name: clock-animation;
+    animation-duration: 60s;
+}
+
+.num6 {
+    transform: translate(0, 850%);
+}
+
+.num9 {
+    transform: translate(-48%, -155%);
+}
+
+.num12 {
+    transform: translate(0, -1120%);
+}
+
+.num3 {
+    transform: translate(48%, 450%);
+}
+
+.num1 {
+    transform: translate(25%, 70%);
+}
+
+.num2 {
+    transform: translate(41%, 200%);
+}
+
+.num4 {
+    transform: translate(41%, 720%);
+}
+
+.num11 {
+    transform: ;
+}
+
+.num5 {
+    transform: translate(25%, 850%);
+}
+
+.num5 {
+    transform: translate(25%, 850%);
+}
+
+.num7 {
+    transform: translate(-25%, 650%);
+}
+
+.num8 {
+    transform: translate(-41%, 320%);
+}
+
+.num11 {
+    transform: translate(-25%, -930%)
+}
+
+.num10 {
+    transform: translate(-41%, -600%);
+}
+
+
+/* .num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6,
+.num7,
+.num8,
+.num9,
+.num10,
+.num11,
+.num12 {
+    padding: 15px;
+} */
+
+
+/* .num1 {
+    transform: translate(28%, 100%);
+}
+
+.num2 {
+    transform: translate(44%, 260%);
+}
+
+.num3 {
+    transform: translate(48%, 489%);
+}
+
+.num4 {
+    transform: translate(44%, 750%);
+}
+
+.num5 {
+    transform: translate(28%, 890%);
+}
+
+.num6 {
+    transform: translate(0, 890%);
+}
+
+.num7 {
+    transform: translate(24%, 694%);
+}
+
+.num8 {
+    transform: translate(-44%, 350%)
+}
+
+.num9 {
+    transform: translate(-48%, -100%);
+}
+
+.num10 {
+    transform: translate(-44%, -540%);
+}
+
+.num11 {
+    transform: translate(-28%, -900%);
+}
+
+.num12 {
+    transform: translate(0, -1130%);
+} */
